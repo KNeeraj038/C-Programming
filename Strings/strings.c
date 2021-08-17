@@ -1,4 +1,5 @@
 #include<stdio.h>
+#include<string.h>
 #include <stdlib.h>
 
 int main(){
@@ -28,10 +29,9 @@ int main(){
     *(str2+3) = 'M';
     
     printf("\n%s",str2);
-
-
-
+    size_t len = strlen(str2);
+    printf("\n%zu",len);
 
     printf("\n");
-    return 0;
+    return EXIT_SUCCESS;
 }
