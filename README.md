@@ -31,7 +31,7 @@ then,
 change mode
 > set follow-fork-mode child
 
-## To debug C Program with fork()
+## To debug C Program with exec()
 Compile the program.
 then,
 > break main
